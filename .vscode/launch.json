@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Stream",
+      "request": "launch",
+      "mainClass": "hadoop.streaming.Stream",
+      "projectName": "streamnumber"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
