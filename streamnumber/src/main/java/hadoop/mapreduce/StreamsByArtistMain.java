@@ -22,6 +22,7 @@ public class StreamsByArtistMain {
 
         // Mapper and Reducer classes
         job.setMapperClass(ArtistMapper.class);
+        job.setCombinerClass(TotalStreamsReducer.class);
         job.setReducerClass(TotalStreamsReducer.class);
 
         // Output key-value types
