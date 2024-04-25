@@ -13,6 +13,21 @@
     },
     {
       "type": "java",
+      "name": "ProducerKafka",
+      "request": "launch",
+      "mainClass": "kafkastream.ProducerKafka",
+      "projectName": "streamnumber",
+      "args": ["Project-kafka"]
+    },
+    {
+      "type": "java",
+      "name": "Stream2",
+      "request": "launch",
+      "mainClass": "hadoop.stream2.Stream2",
+      "projectName": "streamnumber"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"

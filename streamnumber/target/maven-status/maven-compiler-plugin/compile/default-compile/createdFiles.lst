@@ -1,4 +1,5 @@
 hadoop\mapreduce\TotalStreamsReducer.class
 hadoop\mapreduce\Main.class
+hadoop\streaming\Stream.class
 hadoop\mapreduce\ArtistMapper.class
 hadoop\mapreduce\StreamsByArtistMain.class

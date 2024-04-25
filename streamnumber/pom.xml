@@ -45,25 +45,61 @@
           <version>3.3.6</version>
       </dependency>
 
+<!--
       <dependency>
           <groupId>org.apache.spark</groupId>
           <artifactId>spark-core_2.13</artifactId>
           <version>3.5.0</version>
-      </dependency>
+      </dependency>-->
+      <!--
       <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-streaming_2.13</artifactId>
         <version>3.5.0</version>
     </dependency>
+    
     <dependency>
     <groupId>org.apache.spark</groupId>
-    <artifactId>spark-sql_2.13</artifactId> <!-- Assurez-vous que la version correspond à celle que vous utilisez -->
-    <version>3.5.0</version> <!-- Assurez-vous de spécifier la version correcte -->
-</dependency>
+    <artifactId>spark-sql_2.13</artifactId> 
+    <version>3.5.0</version> 
+</dependency>-->
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.15.0</version> <!-- Use a version compatible with Scala module -->
+    <version>2.15.0</version> 
+</dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.12</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.12</artifactId>
+            <version>3.5.0</version>
+            <scope>provided</scope>
+        </dependency>
+       <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql-kafka-0-10_2.12</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.12</artifactId>
+            <version>3.5.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.kafka</groupId>
+          <artifactId>kafka-clients</artifactId>
+          <version>3.6.1</version>
+      </dependency>
+      <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.4</version> <!-- Use the latest version available -->
 </dependency>
 
   </dependencies>
