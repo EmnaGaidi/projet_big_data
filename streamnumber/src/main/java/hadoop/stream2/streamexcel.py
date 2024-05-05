@@ -8,7 +8,7 @@ import random
 process = subprocess.Popen(["ncat", "-lk", "9999"], stdin=subprocess.PIPE)
 
 excel_file_path = os.path.join(
-    "..", "..", "..", "resources", "input", "Spotify_modified.xlsx"
+    "..", "..", "..", "resources", "input", "Spotify_cleaned.xlsx"
 )
 # Open the Excel file
 df = pd.read_excel(excel_file_path)

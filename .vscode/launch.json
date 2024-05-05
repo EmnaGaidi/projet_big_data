@@ -13,11 +13,42 @@
     },
     {
       "type": "java",
+      "name": "Consumer",
+      "request": "launch",
+      "mainClass": "kafkastream.Consumer",
+      "projectName": "streamnumber",
+      "args": ["localhost:9092", "topic1", "mySparkConsumerGroup"]
+    },
+    {
+      "type": "java",
+      "name": "Consumer2",
+      "request": "launch",
+      "mainClass": "kafkastream.Consumer2",
+      "projectName": "streamnumber",
+      "args": ["localhost:9092", "topic1", "mySparkConsumerGroup"]
+    },
+    {
+      "type": "java",
+      "name": "MongoDBForeachWriter",
+      "request": "launch",
+      "mainClass": "kafkastream.MongoDBForeachWriter",
+      "projectName": "streamnumber"
+    },
+    {
+      "type": "java",
       "name": "ProducerKafka",
       "request": "launch",
       "mainClass": "kafkastream.ProducerKafka",
       "projectName": "streamnumber",
-      "args": ["Project-kafka"]
+      "args": ["topic1"]
+    },
+    {
+      "type": "java",
+      "name": "ConsumerSpark",
+      "request": "launch",
+      "mainClass": "kafkastream.ConsumerSpark",
+      "projectName": "streamnumber",
+      "args": ["localhost:9092", "topic1", "mySparkConsumerGroup"]
     },
     {
       "type": "java",

@@ -1,5 +1,11 @@
+kafkastream\Consumer.class
+kafkastream\ConsumerSpark.class
+hadoop\stream2\Stream2.class
+kafkastream\Consumer2.class
+hadoop\mapreduce\ArtistMapper.class
+kafkastream\ProducerKafka.class
+hadoop\mapreduce\StreamsByArtistMain.class
 hadoop\mapreduce\TotalStreamsReducer.class
 hadoop\mapreduce\Main.class
+kafkastream\MongoDBForeachWriter.class
 hadoop\streaming\Stream.class
-hadoop\mapreduce\ArtistMapper.class
-hadoop\mapreduce\StreamsByArtistMain.class
