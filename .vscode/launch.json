@@ -13,26 +13,14 @@
     },
     {
       "type": "java",
-      "name": "Consumer",
+      "name": "StreamsByArtistSpark",
       "request": "launch",
-      "mainClass": "kafkastream.Consumer",
+      "mainClass": "hadoop.mapreduce.batchSpark.StreamsByArtistSpark",
       "projectName": "streamnumber",
-      "args": ["localhost:9092", "topic1", "mySparkConsumerGroup"]
-    },
-    {
-      "type": "java",
-      "name": "Consumer2",
-      "request": "launch",
-      "mainClass": "kafkastream.Consumer2",
-      "projectName": "streamnumber",
-      "args": ["localhost:9092", "topic1", "mySparkConsumerGroup"]
-    },
-    {
-      "type": "java",
-      "name": "MongoDBForeachWriter",
-      "request": "launch",
-      "mainClass": "kafkastream.MongoDBForeachWriter",
-      "projectName": "streamnumber"
+      "args": [
+        "streamnumber/src/main/resources/input/Popular_Spotify_Songs.csv",
+        "streamnumber/src/main/resources/output/outputSpark"
+      ]
     },
     {
       "type": "java",

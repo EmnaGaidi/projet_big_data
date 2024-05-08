@@ -1,11 +1,10 @@
-C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\mapreduce\Main.java
+C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\kafkastream\ConsumerKH.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\mapreduce\StreamsByArtistMain.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\stream2\Stream2.java
-C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\kafkastream\Consumer2.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\kafkastream\ProducerKafka.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\streaming\Stream.java
+C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\streaming\StreamHbase.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\mapreduce\TotalStreamsReducer.java
-C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\kafkastream\MongoDBForeachWriter.java
-C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\kafkastream\Consumer.java
+C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\mapreduce\batchSpark\StreamsByArtistSparkHBase.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\hadoop\mapreduce\ArtistMapper.java
 C:\GL4-Sem2\Big data\projet_bigdata\streamnumber\src\main\java\kafkastream\ConsumerSpark.java
