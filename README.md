@@ -19,3 +19,6 @@ Batch : Hadoop MapReduce
 MongoDB
 ### 4- Data Visualization
 Dashboarding : MongoDB Charts
+
+## Dashboard
+![Emna's Dashboard (1)](https://github.com/EmnaGaidi/projet_big_data/assets/94928444/41f8c2bf-8bd2-4ed1-af07-5f6112ee5f4e)
