@@ -9,13 +9,13 @@ The Popular_Spotify dataset contains information about various music tracks, inc
 ## Architecture Choice
 We choose Lambda architecture because we want to process data in real-time and in batches separately.
 
-1-Data Ingestion
+### 1-Data Ingestion
 For batch processing : Directly
 For Streaming : Kafka
-2-Data Processing
+### 2-Data Processing
 Streaming : Spark Streaming
 Batch : Hadoop MapReduce
-3-Data Storage
+### 3-Data Storage
 MongoDB
-4- Data Visualization
+### 4- Data Visualization
 Dashboarding : MongoDB Charts
