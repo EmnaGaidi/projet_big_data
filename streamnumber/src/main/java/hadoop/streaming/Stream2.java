@@ -1,4 +1,4 @@
-package hadoop.stream2;
+package hadoop.streaming;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Encoders;

@@ -11,7 +11,6 @@ import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.streaming.StreamingQuery;
 
-import static org.apache.spark.sql.functions.sort_array;
 
 import java.io.IOException;
 import java.util.*;

@@ -176,7 +176,6 @@
     <artifactId>java-string-similarity</artifactId>
     <version>RELEASE</version>
 </dependency>
-
   </dependencies>
   <build>
         <sourceDirectory>src/main/java</sourceDirectory>

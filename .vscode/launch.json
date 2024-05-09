@@ -13,14 +13,10 @@
     },
     {
       "type": "java",
-      "name": "StreamsByArtistSpark",
+      "name": "ConsumerMongo",
       "request": "launch",
-      "mainClass": "hadoop.mapreduce.batchSpark.StreamsByArtistSpark",
-      "projectName": "streamnumber",
-      "args": [
-        "streamnumber/src/main/resources/input/Popular_Spotify_Songs.csv",
-        "streamnumber/src/main/resources/output/outputSpark"
-      ]
+      "mainClass": "kafkastream.ConsumerMongo",
+      "projectName": "streamnumber"
     },
     {
       "type": "java",
@@ -29,6 +25,24 @@
       "mainClass": "kafkastream.ProducerKafka",
       "projectName": "streamnumber",
       "args": ["topic1"]
+    },
+    {
+      "type": "java",
+      "name": "StreamMongoDB",
+      "request": "launch",
+      "mainClass": "hadoop.streaming.StreamMongoDB",
+      "projectName": "streamnumber"
+    },
+    {
+      "type": "java",
+      "name": "StreamsByArtistMongoDB",
+      "request": "launch",
+      "mainClass": "hadoop.mapreduce.batchSpark.StreamsByArtistMongoDB",
+      "projectName": "streamnumber",
+      "args": [
+        "streamnumber/src/main/resources/input/Popular_Spotify_Songs.csv",
+        "streamnumber/src/main/resources/output1"
+      ]
     },
     {
       "type": "java",
@@ -53,20 +67,13 @@
     },
     {
       "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "hadoop.mapreduce.Main",
-      "projectName": "streamnumber"
-    },
-    {
-      "type": "java",
       "name": "StreamsByArtistMain",
       "request": "launch",
       "mainClass": "hadoop.mapreduce.StreamsByArtistMain",
       "projectName": "streamnumber",
       "args": [
         "streamnumber/src/main/resources/input/Popular_Spotify_Songs.csv",
-        "streamnumber/src/main/resources/output"
+        "streamnumber/src/main/resources/output1"
       ]
     }
   ]
